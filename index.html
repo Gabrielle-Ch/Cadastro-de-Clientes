@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Clientes</h1>
+    <form id="cliente-form">
+        <input type="hidden" id="cliente-id"> <!-- Campo oculto para armazenar o ID -->
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <ul id="clientes-lista"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
